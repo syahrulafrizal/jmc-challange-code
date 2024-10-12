@@ -49,20 +49,14 @@ flutter run
 <table>
   <tr>
     <td align="center" valign="center"><img src="screehshoot/image_home_1.png"></td>
-  </tr>
-  <tr>
     <td align="center" valign="center"><img src="screehshoot/image_home_2.png"></td>
   </tr>
   <tr>
     <td align="center" valign="center"><img src="screehshoot/image_province.png"></td>
-  </tr>
-  <tr>
     <td align="center" valign="center"><img src="screehshoot/image_city.png"></td>
   </tr>
   <tr>
     <td align="center" valign="center"><img src="screehshoot/image_action_more.png"></td>
-  </tr>
-  <tr>
     <td align="center" valign="center"><img src="screehshoot/image_edit.png"></td>
   </tr>
  </table>
