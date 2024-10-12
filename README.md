@@ -42,7 +42,7 @@ flutter run
 - `get_x`: State Management
 - `dio`: Allow connections with server
 - `intl`: Internationalization
-- `sqflite`: Market store data
+- `sqflite`: Store local database
 
 ## JMC Challange Code
 
