@@ -147,8 +147,24 @@ class HomeView extends GetView<HomeController> {
                           minLeadingWidth: 12,
                           leading: const Icon(Icons.location_city),
                           trailing: const Icon(Icons.more_vert),
-                          title: Text(item["provinceName"] as String? ?? ""),
-                          subtitle: Text(item["cityName"] as String? ?? ""),
+                          title: Text(
+                            item["provinceName"] as String? ?? "",
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 13,
+                              color: AppColors.neutral_90,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          subtitle: Text(
+                            item["cityName"] as String? ?? "",
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: AppColors.neutral_70,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
                         ),
                       );
                     },
