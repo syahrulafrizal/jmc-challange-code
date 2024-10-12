@@ -1,0 +1,10 @@
+analyzer:
+  errors:
+    annotate_overrides: ignore
+    camel_case_types: ignore
+    constant_identifier_names: ignore
+    unnecessary_overrides: ignore
+include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    
