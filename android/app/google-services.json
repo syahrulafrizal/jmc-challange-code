@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302602482078",
+    "project_id": "culture-monitoring-system",
+    "storage_bucket": "culture-monitoring-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302602482078:android:d6f57a3571d74055e6668f",
+        "android_client_info": {
+          "package_name": "co.id.riungmitra.culture_monitoring_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVv3TB8qn-OM51wNSbGs4e81VMuCLo5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302602482078:android:6ec0ac16e97eac44e6668f",
+        "android_client_info": {
+          "package_name": "com.syahrul.jmc_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvVv3TB8qn-OM51wNSbGs4e81VMuCLo5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

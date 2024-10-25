@@ -31,8 +31,9 @@ class Request {
 
       dio.options.baseUrl = baseUrl;
       dio.options.responseType = ResponseType.json;
-      dio.options.headers['content-Type'] = 'application/vnd.api+json';
+      dio.options.headers['content-Type'] = 'application/json';
       dio.options.headers['Accept'] = 'application/json';
+      dio.options.contentType = Headers.jsonContentType;
 
       dio.options.connectTimeout = const Duration(minutes: 5);
       dio.options.sendTimeout = const Duration(minutes: 5);

@@ -43,7 +43,7 @@ class Callback extends Interceptor {
       );
     }
 
-    super.onResponse(response, handler);
+    // super.onResponse(response, handler);
   }
 
   @override
